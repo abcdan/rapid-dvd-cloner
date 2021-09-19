@@ -100,33 +100,9 @@ async function main() {
             }
           });
         }
-
-        // copydir(drive.mountpoints[0].path, './output/2002', function(err) {
-        //     if(err) throw err
-        //     console.log('done')
-        // })
       });
     }
   }
 }
-//           rl.question("What's the name of the dvd? ", function (dvdName) {
-//             // Make directory in output with dvdName
-//             // fs.mkdir("./output/" + dvdName, (err) => {
-//             //   console.log(err);
-//             // //   fse.copySync(drive.mountpoints[0].path, './output/'+dvdName, function (err) {
-//             // //     if (err) {
-//             // //       console.error(err);
-//             // //     } else {
-//             // //       console.log("success!");
-//             // //     }
-//             // //   });
-//             // });
-
-//           });
-//         }
-//       });
-//     }
-//   }
-// }
 
 main();
